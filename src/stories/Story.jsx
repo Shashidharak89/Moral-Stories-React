@@ -6,14 +6,19 @@ const Story = () => {
   return (
     <div>
       <div>
-        {data.map((item) => (
-          <div key={item.id} style={{ border: '1px solid black', margin: '10px', padding: '10px' }}>
-            <img src={item.imageurl} alt={item.title} style={{ width: '100px', height: '100px' }} />
-            <h3>{item.title}</h3>
-            <p>{item.story}</p>
-            <strong>Moral: {item.moral}</strong>
-          </div>
-        ))}
+        {data.map((curElem) => {
+          const { id, title, paragraphs, moral, imageurl } = curElem;
+          return (
+            <div key={id}>
+              <h2>{title}</h2>
+              <img src={imageurl} alt={title} style={{ width: '300px', height: '200px' }} />
+              {paragraphs.map((para, index) => (
+                <p key={index}>{para}</p>
+              ))}
+              <h4>Moral: {moral}</h4>
+            </div>
+          );
+        })}
       </div>
     </div>
   );
