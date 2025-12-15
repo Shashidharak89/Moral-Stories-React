@@ -25,8 +25,10 @@ const stories = [
     ],
     moral:
       "Do not cheat, and don’t be greedy. Do not take more than you need. Be content with what you have—sometimes, it is enough for a happy life.",
-    imageurl:
+    imageurl:[
+      "https://res.cloudinary.com/dsojdpkgh/image/upload/v1765813160/edv0tyjfsfhjh4sd1snd.jpg",
       "https://res.cloudinary.com/dsojdpkgh/image/upload/v1765813160/edv0tyjfsfhjh4sd1snd.jpg"
+    ]
   },
 
   {
@@ -47,8 +49,11 @@ const stories = [
     ],
     moral:
       "If you keep lying, no one will believe you even if you are speaking the truth. Always speak the truth.",
-    imageurl:
-      "https://res.cloudinary.com/dsojdpkgh/image/upload/v1765813755/vsdgjuqzbyeqrqt7azev.jpg"
+    imageurl:[
+      "https://res.cloudinary.com/dsojdpkgh/image/upload/v1765813755/vsdgjuqzbyeqrqt7azev.jpg",
+      "https://res.cloudinary.com/dsojdpkgh/image/upload/v1765814622/glcejlzxajyz5yaetrib.jpg",
+      "https://res.cloudinary.com/dsojdpkgh/image/upload/v1765815066/ybsu9ip2ppwqahngzpij.jpg"
+    ]
   }
 ];
 

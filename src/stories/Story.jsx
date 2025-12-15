@@ -1,27 +1,40 @@
-import React, { useState } from 'react';
-import stories from './stories';
+import React from "react";
+import stories from "./stories";
+import "./styles/Story.css";
+
 const Story = () => {
-  const [data, setData] = useState(stories);
-  console.log(stories);
   return (
-    <div>
-      <div>
-        {data.map((curElem) => {
-          const { id, title, paragraphs, moral, imageurl } = curElem;
-          return (
-            <div key={id}>
-              <h2>{title}</h2>
-              <img src={imageurl} alt={title} style={{ width: '300px', height: '200px' }} />
-              {paragraphs.map((para, index) => (
-                <p key={index}>{para}</p>
-              ))}
-              <h4>Moral: {moral}</h4>
+    <div className="story-page">
+      <div className="story-container">
+        {stories.map((story) => (
+          <div key={story.id} className="story-card">
+            <h2 className="story-title">{story.title}</h2>
+
+            {story.paragraphs.map((para, idx) => (
+              <React.Fragment key={idx}>
+                <p className="story-paragraph">{para}</p>
+
+                {story.imageurl?.[idx] && (
+                  <div className="story-image-wrapper">
+                    <img
+                      src={story.imageurl[idx]}
+                      alt={`${story.title} illustration ${idx + 1}`}
+                      className="story-image"
+                      loading="lazy"
+                    />
+                  </div>
+                )}
+              </React.Fragment>
+            ))}
+
+            <div className="story-moral">
+              <span>Moral:</span> {story.moral}
             </div>
-          );
-        })}
+          </div>
+        ))}
       </div>
     </div>
   );
-}
+};
 
 export default Story;
