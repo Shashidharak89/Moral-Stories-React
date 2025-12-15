@@ -98,6 +98,37 @@ const stories = [
       "https://res.cloudinary.com/dsojdpkgh/image/upload/v1765818300/zy8aoolem1cut6vsmir8.jpg",
       "https://res.cloudinary.com/dsojdpkgh/image/upload/v1765818337/fxg6zvpveiuez7mr6txj.jpg"
     ]
+  },
+  {
+    id: 5,
+    title:"The Farmer and the Snake",
+    paragraphs:[
+      "A Farmer walked through his field one cold winter morning. On the ground lay a Snake, stiff and frozen with the cold. The Farmer knew how deadly the Snake could be, and yet he picked it up and put it in his bosom to warm it back to life.",
+      "The Snake soon revived, and when it had enough strength, bit the man who had been so kind to it. The bite was deadly and the Farmer felt that he must die. As he drew his last breath, he said to those standing around, “Learn from my fate not to take pity on a scoundrel”."
+    ],
+    moral:"There are some who never changes their nature, regardless of how good we behave with them. Always stay alert and maintain the distance from those who are there only thinking about their own benefits.",
+    imageurl:[
+      "https://res.cloudinary.com/dsojdpkgh/image/upload/v1765818777/zuoay0gzy735lejgceqm.jpg",
+      "https://res.cloudinary.com/dsojdpkgh/image/upload/v1765818884/xa2vyiwvqwftdohcghtp.jpg"
+    ]
+  },
+  {
+    id: 6,
+    title:"The King and Macaw Parrots",
+    paragraphs:[
+      "Once upon a time, there was a king who had gone to visit neighboring kingdoms. He was gifted a pair of baby Macaw Parrots by the king of the last kingdom where he was visiting. They were the most beautiful birds he had ever seen. So, upon returning to his kingdom, he called for a bird trainer and asked him to train macaw parrots.",
+      "The king also arranged a place in the palace garden for the parrots. He often looked at them from his palace window. As time passed, one day the trainer came to the palace and informed the king that though one of the parrots was flying majestically high in the sky, the other one was not moving from its branch since the day it had arrived.",
+      "Upon hearing this, the king summoned trainer and healers from the nearby kingdoms. They all tried their best, but couldn’t make the parrot fly! He even asked his courtiers to try to find a way to make the parrot fly but they all failed. The parrot was not moving from his branch at all. Finally, after trying everything, the king thought that maybe he needs someone who may be more familiar with natural habitat. He asked his courtier to get a farmer from the countryside and take him to the parrot to see if he can understand the problem with the parrot.",
+      "The next morning, the king was thrilled to see the parrot flying high above the palace gardens. He asked his servant to call that farmer to meet him. The servant quickly went and located the farmer, who came and stood before the king. The king asked him, “How did you make the parrot fly?”",
+      "With his hands folded with respect, the farmer said to the king, “It was very easy, your majesty. I simply cut the branch where the bird was sitting.”"
+    ],
+    moral:"We are all gifted with energy to find a success in our life, but fail to gather a courage which is required to reach heights of success and end up clinging to the things that are familiar to us. We need to free ourselves from our comfort zone to explore new opportunities and find a success beyond our capacity.",
+    imageurl:[
+      "https://res.cloudinary.com/dsojdpkgh/image/upload/v1765819189/k21g5ge9rzj91bix48lf.jpg",
+      "https://res.cloudinary.com/dsojdpkgh/image/upload/v1765819235/uhymuej326ejbzpdcyfh.jpg",
+      "https://res.cloudinary.com/dsojdpkgh/image/upload/v1765819307/i5cpbv7eg4e47qc60oeq.jpg",
+      "https://res.cloudinary.com/dsojdpkgh/image/upload/v1765819370/wlgsnsvx3pzxvqa3jhvm.jpg"
+    ]
   }
 ];
 
