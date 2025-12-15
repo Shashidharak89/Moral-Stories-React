@@ -26,8 +26,15 @@ const stories = [
     moral:
       "Do not cheat, and don’t be greedy. Do not take more than you need. Be content with what you have—sometimes, it is enough for a happy life.",
     imageurl: [
-      "https://res.cloudinary.com/dsojdpkgh/image/upload/v1765813160/edv0tyjfsfhjh4sd1snd.jpg",
-      "https://res.cloudinary.com/dsojdpkgh/image/upload/v1765813160/edv0tyjfsfhjh4sd1snd.jpg"
+      "https://res.cloudinary.com/dsojdpkgh/image/upload/v1765817167/pivy9wg0cmtaknpeuzja.jpg",
+      "https://res.cloudinary.com/dsojdpkgh/image/upload/v1765817252/kfxnz4grzm2gsjmmwbhe.jpg",
+      "https://res.cloudinary.com/dsojdpkgh/image/upload/v1765817341/a6pn2rcpqsobpgnf781c.jpg",
+      "https://res.cloudinary.com/dsojdpkgh/image/upload/v1765817395/daazpfa6hn0eqsnclelu.jpg",
+      "https://res.cloudinary.com/dsojdpkgh/image/upload/v1765817448/vc5di04mgpmic10gqgct.jpg",
+      "https://res.cloudinary.com/dsojdpkgh/image/upload/v1765817503/mkbhozaw0getu7zdgsnk.jpg",
+      "https://res.cloudinary.com/dsojdpkgh/image/upload/v1765817553/doarp0deyjos3scwyuxq.jpg",
+      "https://res.cloudinary.com/dsojdpkgh/image/upload/v1765817588/ebuc8ngkhjxfswt3s9zj.jpg",
+      "https://res.cloudinary.com/dsojdpkgh/image/upload/v1765817689/o5sddrdl7d0vz2zeru1r.jpg"
     ]
   },
 
@@ -68,7 +75,11 @@ const stories = [
     ],
     moral:"I should not react in life. I should always respond. The women reacted, whereas the waiter responded. Reactions are always instinctive whereas responses are always well thought of, just and right to save a situation from going out of hand, to avoid cracks in a relationship, to avoid making decisions in anger, anxiety, stress or hurry.",
     imageurl:[
-      
+      "https://res.cloudinary.com/dsojdpkgh/image/upload/v1765816567/qeg9oscmxbkf6xmfqx23.jpg",
+      "https://res.cloudinary.com/dsojdpkgh/image/upload/v1765816911/vx1ts3wkvmmbc5mptlfj.jpg",
+      "https://res.cloudinary.com/dsojdpkgh/image/upload/v1765816969/tulw8bcwen1fgpolvvih.jpg",
+      "https://res.cloudinary.com/dsojdpkgh/image/upload/v1765817022/fkk3tax1l0n9nno2u5oe.jpg"
+
     ]
   }
 ];
