@@ -1,9 +1,10 @@
+/* Page */
 .story-page {
   min-height: 100vh;
   background-color: #11224e;
   padding: 40px 20px;
   color: #eeeeee;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: system-ui, -apple-system, sans-serif;
 }
 
 .story-container {
@@ -11,33 +12,70 @@
   margin: 0 auto;
 }
 
+/* Card */
 .story-card {
   background-color: rgba(255, 255, 255, 0.04);
-  padding: 32px;
   border-radius: 14px;
-  margin-bottom: 40px;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
-}
-
-.story-card:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 14px 36px rgba(0, 0, 0, 0.45);
-}
-
-.story-title {
-  color: #f87b1b;
-  font-size: 28px;
   margin-bottom: 20px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
 }
 
+/* Title Button */
+.story-title-btn {
+  width: 100%;
+  background: none;
+  border: none;
+  padding: 20px 24px;
+  color: #f87b1b;
+  font-size: 22px;
+  font-weight: 600;
+  text-align: left;
+  cursor: pointer;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  transition: background-color 0.25s ease;
+}
+
+.story-title-btn:hover {
+  background-color: rgba(248, 123, 27, 0.08);
+}
+
+.story-title-btn.active {
+  background-color: rgba(248, 123, 27, 0.12);
+}
+
+/* Plus / minus */
+.story-arrow {
+  font-size: 26px;
+  line-height: 1;
+  color: #cbd99b;
+}
+
+/* Expandable content */
+.story-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease;
+}
+
+.story-content.open {
+  max-height: 5000px; /* enough for long stories */
+}
+
+/* Paragraphs */
 .story-paragraph {
+  padding: 0 24px;
+  margin: 16px 0;
   line-height: 1.8;
   text-align: justify;
-  margin-bottom: 18px;
   font-size: 16px;
 }
 
+/* Images */
 .story-image-wrapper {
   display: flex;
   justify-content: center;
@@ -45,7 +83,7 @@
 }
 
 .story-image {
-  max-width: 100%;
+  max-width: 90%;
   max-height: 360px;
   border-radius: 12px;
   object-fit: cover;
@@ -56,8 +94,9 @@
   transform: scale(1.02);
 }
 
+/* Moral */
 .story-moral {
-  margin-top: 26px;
+  margin: 26px 24px 30px;
   padding: 16px 20px;
   border-left: 4px solid #f87b1b;
   background-color: rgba(248, 123, 27, 0.1);
@@ -70,13 +109,10 @@
   font-weight: 600;
 }
 
+/* Mobile */
 @media (max-width: 600px) {
-  .story-card {
-    padding: 22px;
-  }
-
-  .story-title {
-    font-size: 22px;
+  .story-title-btn {
+    font-size: 18px;
   }
 
   .story-paragraph {

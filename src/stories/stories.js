@@ -25,7 +25,7 @@ const stories = [
     ],
     moral:
       "Do not cheat, and don’t be greedy. Do not take more than you need. Be content with what you have—sometimes, it is enough for a happy life.",
-    imageurl:[
+    imageurl: [
       "https://res.cloudinary.com/dsojdpkgh/image/upload/v1765813160/edv0tyjfsfhjh4sd1snd.jpg",
       "https://res.cloudinary.com/dsojdpkgh/image/upload/v1765813160/edv0tyjfsfhjh4sd1snd.jpg"
     ]
@@ -49,10 +49,26 @@ const stories = [
     ],
     moral:
       "If you keep lying, no one will believe you even if you are speaking the truth. Always speak the truth.",
-    imageurl:[
+    imageurl: [
+      "https://res.cloudinary.com/dsojdpkgh/image/upload/v1765815706/yviltusefszczytwchck.jpg",
       "https://res.cloudinary.com/dsojdpkgh/image/upload/v1765813755/vsdgjuqzbyeqrqt7azev.jpg",
       "https://res.cloudinary.com/dsojdpkgh/image/upload/v1765814622/glcejlzxajyz5yaetrib.jpg",
-      "https://res.cloudinary.com/dsojdpkgh/image/upload/v1765815066/ybsu9ip2ppwqahngzpij.jpg"
+      "https://res.cloudinary.com/dsojdpkgh/image/upload/v1765815066/ybsu9ip2ppwqahngzpij.jpg",
+
+    ]
+  },
+  {
+    id: 3,
+    title:"To Respond or React",
+    paragraphs:[
+      "At a restaurant, a cockroach suddenly flew from somewhere and sat on a lady. She started screaming out of fear. With a panic stricken face and trembling voice, she started jumping with both her hands desperately trying to get rid of the cockroach. Her reaction was contagious as everyone in her group also got panicky. The lady finally managed to push the cockroach away but it landed on another lady in the group.",
+      "Now it was the turn of the other lady in the group to continue the drama. The waiter rushed forward to their rescue. In the relay of throwing, the cockroach next fell upon the waiter. The waiter stood firm, composed himself and observed the behavior of the cockroach on his shirt. When he was confident enough, he grabbed it with his fingers and threw it out of the restaurant.",
+      "Sipping my coffee and watching the amusement, the antenna of my mind picked up a few thoughts and started wondering if the cockroach was responsible for their histrionic behavior? If so, then why was the waiter not disturbed? He handled it near to perfection without any chaos.",
+      "It is not the cockroach, but the inability of the ladies to handle the disturbance caused by the cockroach that disturbed the ladies."
+    ],
+    moral:"I should not react in life. I should always respond. The women reacted, whereas the waiter responded. Reactions are always instinctive whereas responses are always well thought of, just and right to save a situation from going out of hand, to avoid cracks in a relationship, to avoid making decisions in anger, anxiety, stress or hurry.",
+    imageurl:[
+      
     ]
   }
 ];
