@@ -81,6 +81,23 @@ const stories = [
       "https://res.cloudinary.com/dsojdpkgh/image/upload/v1765817022/fkk3tax1l0n9nno2u5oe.jpg"
 
     ]
+  },
+  {
+    id: 4,
+    title:"The Pig and The Sheep",
+    paragraphs:[
+      "One day a shepherd discovered a fat Pig in the meadow where his Sheep were pastured. He very quickly captured the porker, which squealed at the top of its voice the moment the Shepherd laid his hands on it. You would have thought, to hear the loud squealing, that the Pig was being cruelly hurt. But in spite of its squeals and struggles to escape, the Shepherd tucked his prize under his arm and started off to the butcher’s in the marketplace.",
+      "The Sheep in the pasture were much astonished and amused at the Pig’s behavior and followed the Shepherd and his charge to the pasture gate.",
+      "What makes you squeal like that?” asked one of the Sheep. “The Shepherd often catches and carries off one of us. But we should feel very much ashamed to make such a terrible fuss about it like you do.",
+      "“That is all very well,” replied the Pig, with a squeal and a frantic kick. “When he catches you he is only after your wool. But he wants my bacon! gree-ee-ee!”"
+    ],
+    moral:"It is easy to be brave when there is no danger. Don’t compare two different situations without understanding them.",
+    imageurl:[
+      "https://res.cloudinary.com/dsojdpkgh/image/upload/v1765818169/sc9ubuglnxaay4uctvie.jpg",
+      "https://res.cloudinary.com/dsojdpkgh/image/upload/v1765818249/ksoxsxmx0stgsjymi7qk.jpg",
+      "https://res.cloudinary.com/dsojdpkgh/image/upload/v1765818300/zy8aoolem1cut6vsmir8.jpg",
+      "https://res.cloudinary.com/dsojdpkgh/image/upload/v1765818337/fxg6zvpveiuez7mr6txj.jpg"
+    ]
   }
 ];
 

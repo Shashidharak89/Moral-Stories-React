@@ -12,7 +12,7 @@ const Story = () => {
   return (
     <div className="story-page">
       <div className="story-container">
-        {stories.map((story) => {
+        {stories.map((story, storyIndex) => {
           const isOpen = openStoryId === story.id;
 
           return (
@@ -22,7 +22,7 @@ const Story = () => {
                 className={`story-title-btn ${isOpen ? "active" : ""}`}
                 onClick={() => toggleStory(story.id)}
               >
-                {story.title}
+                {storyIndex + 1}. {story.title}
                 <span className="story-arrow">{isOpen ? "−" : "+"}</span>
               </button>
 
